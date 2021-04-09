@@ -3,6 +3,11 @@ body{
     margin: 0; padding: 0;
     background-color: rgb(32, 11, 53);
     font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6, p,div{
+    margin-left: 2rem;
 }
 
 
@@ -10,8 +15,21 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Train One', cursive;
 }
 
+h1{
+    font-size: 4rem;
+    margin-bottom: 8rem;
+}
+
+p{
+    font-size: 110%;
+}
+
 a{
     text-decoration: none;
     color: brown;
+}
+
+.socal a+a{
+    padding-left: 8px;
 }
 
