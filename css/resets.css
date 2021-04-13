@@ -1,0 +1,11 @@
+:root{
+    --primary-color: rgb(218, 141, 0); 
+    --dark: rgb(27, 27, 27);
+    --light: rgb(235, 235, 235);
+    --secondary-color: rgb(0, 162, 184);
+    --light-blue: rgb(143, 204, 255);
+    --other-color: rgb(148, 30, 0);
+
+    /* the background colors */
+    --bg-dblueish: rgb(63, 80, 92);
+ }

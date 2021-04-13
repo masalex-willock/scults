@@ -1,0 +1,100 @@
+@import url(./resets.css);
+
+/* top needed */
+*{
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+}
+
+body {
+    font: 110%/1.6 lato, roboto, sans-serif;
+}
+
+/* headers */
+h1,h2,h3,h4{
+    font-family: verdana, 'Giddyup Std', serif;
+}
+
+a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+p{
+      color: var(--dark);
+      padding: 16px;
+}
+
+small{
+      font: italic 80% roboto sans-serif;
+    font-weight: lighter;
+}
+
+
+/* buttons */
+button{
+    padding: .4rem 2rem; 
+    border: 1px solid var(--secondary-color); outline: none;
+    background-color: unset; color: var(--secondary-color);
+    border-radius: 4px;
+    transition: .4s ease-in;
+}
+
+button:hover, button:focus{
+    box-shadow: 0 0 4px gray;
+}
+
+.btn-1{
+    border-radius: 24px;
+}
+.btn-2{
+    border: none;
+    background-color: var(--secondary-color);
+    border-radius: unset; color: white;
+}
+.btn-3{
+    background-color: var(--dark);
+    border: none; border-radius: 24px;
+    color: white;
+}
+.btn-4{
+    border: none; border-bottom: 4px solid var(--primary-color);
+    border-radius: 0;
+    background-color: var(--light);
+}
+.btn-5{
+    text-align: left;
+    position: relative;
+    border-radius: 24px; padding-right: 3.2rem;
+}
+
+.btn-5::after{
+    position: absolute;
+    content: ''; right: .4rem; top: .12rem;
+    width: 1.4rem; height: 1.4rem;
+    border: 1px solid; border-radius: 50%;
+}
+.btn-5::before{
+    position: absolute;
+    content: ''; right: 1rem; top: .5rem;
+    width: .6rem; height: .6rem;
+    border: 1px transparent;
+    border-top: inherit; border-right: inherit;
+    transform: rotate(45deg);
+}
+
+.btn-6{
+    color: var(--dark);
+    border: 1px solid; border-radius: 4rem;
+}
+
+button>a{
+    color: inherit;
+}
+
+/* forms  */
+input{
+    background-color: none;
+    padding: .4rem; text-align: left;
+    border-radius: 4rem;
+}

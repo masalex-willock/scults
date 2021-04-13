@@ -1,0 +1,4 @@
+<div class="social">
+            <a href="https://www.facebook.com/masalex8/">facebook</a><a href="https://github.com/masalex-willock">github</a>   <a href="http://masalex8.wordpress.com/">personal site</a>
+            <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiYtIeImvLvAhUMfMAKHQa6CRAQFjADegQICxAD&url=https%3A%2F%2Ftwitter.com%2Fmasalextom&usg=AOvVaw1tyhgDmm3YZp9UCzanfzAN">masalex tom</a>
+        </div>
